@@ -12,6 +12,7 @@
 		<a href="board">게시판</a>
 		<a href="login">로그인</a>
 		<a href="signin">회원가입</a>
+		<a href="qna">Q&A</a>
 	</nav>	
 	<div>
 		<table>
@@ -29,5 +30,7 @@
 			</tr>
 		</table>
 	</div>
+	
+	<button onclick="location.href='writeBoard'">글쓰기</button>
 </body>
 </html>

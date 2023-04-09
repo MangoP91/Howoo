@@ -13,13 +13,14 @@
 		<a href="login">로그인</a>
 		<a href="signin">회원가입</a>
 		<a href="qna">Q&A</a>
-	</nav>	
+	</nav>
 	
-	<form action="loginCheck" method="post">
-		아이디 <input type="text" name="userId">
-		비밀번호 <input type="text" name="userPassword">
-		<button onclick="">확인</button>
-		<button onclick="">취소</button>
+	<form method="post" action="">
+		글제목 <input type="text" name="sub"><br>
+		비밀번호 <input type="number" name="writePassword"><br>
+		내용 <input style="width:300px; height:300px;" type="text" name="content"><br>
+		<button type="submit">확인</button>
+		<button>취소</button>
 	</form>
 </body>
 </html>

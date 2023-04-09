@@ -2,6 +2,8 @@ package com.example.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HomeController {
@@ -36,5 +38,19 @@ public class HomeController {
 		return "signin";
 	}
 	
+	@RequestMapping("/signinAction")
+	public String signinAction() {
+		return "signinAction";
+	}
+	
+	@GetMapping("/writeBoard")
+	public String write() {
+		return "writeBoard";
+	}
+	
+	@RequestMapping("writeBoardAction")
+	public String writeBoardAction() {
+		return "writeBoardAction";
+	}
 	
 }

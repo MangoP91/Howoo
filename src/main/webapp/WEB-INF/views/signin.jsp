@@ -12,9 +12,10 @@
 		<a href="board">게시판</a>
 		<a href="login">로그인</a>
 		<a href="signin">회원가입</a>
+		<a href="qna">Q&A</a>
 	</nav>	
 	<div>
-		<form method="post" action="">
+		<form action="signinAction" method="post">
 			아이디 <input type="text" name="userId"><br>
 			비밀번호 <input type="text" name="userPassword"><br>
 			비밀번호 확인 <input type="text" name="userPasswordCheck"><br>

@@ -7,12 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<nav>
-		<a href="notice">공지사항</a>
-		<a href="board">게시판</a>
-		<a href="login">로그인</a>
-		<a href="signin">회원가입</a>
-		<a href="qna">Q&A</a>
-	</nav>	
+
+
+<%
+	String id = request.getParameter("userId");
+	String pw = request.getParameter("userPassword");
+	
+	out.println(id + " : " + pw);
+%>
 </body>
 </html>

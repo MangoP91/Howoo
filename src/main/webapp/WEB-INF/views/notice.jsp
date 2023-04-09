@@ -12,9 +12,10 @@
 		<a href="board">게시판</a>
 		<a href="login">로그인</a>
 		<a href="signin">회원가입</a>
+		<a href="qna">Q&A</a>
 	</nav>	
 	
-	<div name="noticeBoard">
+	<div class="noticeBoard">
 		<table>
 			<tr>
 				<td>번호</td>
